@@ -28,18 +28,18 @@ def omikuji():
     random_omikuzi = random.choice(omikuji_list)
 
     if random_omikuzi == "大吉":
-    return print("大吉！素晴らしい幸運が舞い込むでしょう。")
+    return {print("大吉！素晴らしい幸運が舞い込むでしょう。")}
     else if random_omikuzi == "中吉":
-    return print("中吉！努力が実を結び、良い結果が待っています。")
+    return {print("中吉！努力が実を結び、良い結果が待っています。")}
     else if random_omikuzi == "小吉":
-    return print("小吉！ちょっとした幸運があなたの元にやってきます。")
+    return {print("小吉！ちょっとした幸運があなたの元にやってきます。")}
     else if random_omikuzi == "吉":
-    return print("吉！安定した幸せな日々が続くでしょう。")
+    return {print("吉！安定した幸せな日々が続くでしょう。")}
     else if random_omikuzi == "末吉":
-    return print("末吉！努力が実り始め、良い方向に進む時期です。")
+    return {print("末吉！努力が実り始め、良い方向に進む時期です。")}
     else if random_omikuzi == "凶":
-    return print("凶。悪いことが起こるかもしれませんが、気を引き締めてください。")
+    return {print("凶。悪いことが起こるかもしれませんが、気を引き締めてください。")}
     else if random_omikuzi == "小凶":
-    return print("小凶。注意が必要な日です。慎重に行動しましょう。")
+    return {print("小凶。注意が必要な日です。慎重に行動しましょう。")}
     else:
-    return print("大凶。厳しい状況が訪れるかもしれませんが、乗り越えましょう。")
+    return {print("大凶。厳しい状況が訪れるかもしれませんが、乗り越えましょう。")}
